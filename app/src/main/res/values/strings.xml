@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Material template</string>
+    <string name="settings">Settings</string>
+    <string name="template_placeholder_text">This is a Material Design template for pre-Lollipop devices.</string>
+    <string name="navigation_drawer_open">Navigation drawer opened.</string>
+    <string name="navigation_drawer_close">Navigation drawer closed.</string>
+    <string name="user_info_text">User info here</string>
+
+</resources>
