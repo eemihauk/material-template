@@ -1,2 +1,2 @@
-# material-template
-Material template for pre-Lollipop devices.
+# Material template
+Material design template for pre-Lollipop devices.
