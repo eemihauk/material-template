@@ -24,18 +24,18 @@ public class NavDrawerTest extends ActivityInstrumentationTestCase2 {
     }
 
     public void testNavDrawerStartsClosed() {
-        onView(isRoot()).check(matches(isClosed()));
+        onView(withId(R.id.drawer_layout)).check(matches(isClosed()));
     }
 
     public void testNavDrawerOpens() {
         openDrawer(R.id.drawer_layout);
-        onView(isRoot()).check(matches(isOpen()));
+        onView(withId(R.id.drawer_layout)).check(matches(isOpen()));
     }
 
     public void testNavDrawerOpenAndClose() {
         openDrawer(R.id.drawer_layout);
         closeDrawer(R.id.drawer_layout);
-        onView(withId(R.id.navigation_drawer)).check(matches(isClosed()));
+        onView(withId(R.id.drawer_layout)).check(matches(isClosed()));
     }
 
 }
